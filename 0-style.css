@@ -1,0 +1,95 @@
+/*/ GENERAL /*/
+
+.primary {
+    background-color: #3339FF;
+}
+.secondary {
+    background-color: #FF3383;
+}
+
+
+    
+body {background-color: white; 
+}
+
+h1, h5 { text-align: center;
+    font-family: 'Roboto Mono', monospace; font-size: 51px;
+}
+
+h2, h3, h4  {font-family: 'Montserrat', sans-serif; 
+}
+
+a, p, button {font-family: 'Muli', sans-serif!important; font-size: 14px;
+}
+
+/*/ COLOR BOXES /*/
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: initial;
+  background-color: white;
+}
+.flex-container> div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 0px;
+    }
+
+/*/ BUTTONS /*/
+
+.button {
+  background-color: lightgreen; /* Green */
+  border: none;
+    border-radius: 12px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+    
+}
+
+.button2 {background-color: yellow; color: black;} 
+.button3 {background-color: lightcoral;} 
+.button4 {background-color: lightgray; color: black;}
+.button5 {background-color: #3339FF; }
+
+/*/ CARDS /*/
+
+.card {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: initial;
+  background-color: white;
+    
+}
+.card-title {
+    background-color: #3339FF; color: whitesmoke
+}
+
+.card-body {
+    background-color: #FF3383
+}
+
+.card-body .card-text {
+    color: whitesmoke
+}
+
+.card-body .card-text .text-muted {
+    color: white
+}
+
+/*/ NAV /*/
+
+.navbar-ro .navbar-brand {
+    color: #FF3383;
+}
+
+.navbar-ro .mn-primarymenu li a{
+    color: #FF3383;
